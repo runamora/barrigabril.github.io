@@ -1,65 +1,54 @@
-<!DOCTYPEhtml>
-<html>
-<head>
-  <title>x</title>
-  <style>
-*{background-color:black;
-color:Chartreuse;
-}
-  </style>
-<head>
+<script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
 
-<body>
-...`````.``..`````````........``.....`..............................................................
-.........````````````....``....`....................................................................
-`````````````````````...```...............-:://+++//::--............................................
-````````````.``````..```.............-:/ooosssssssssooooo+/-........................................
-````````````````````````..``......-/+osssssssssssssssssssssoo+:.....................................
-```````````````````````````.....-+osssssssyssyssysysssssssssssoo+:..................................
-```````````````````````````...:+ssssssssysyssysyysyysysyssysssssss+:................................
-````````````````````````````-+ossssysyyyyssyyyyyysyyysssssyssssssysso:..............................
-```````````````````````````-ossysysyyyyyssoo++//////+ooossyyssyysyssss+-............................
-``````````````````````````:ssssyyyyyyso+/:::------------::+ssyyssyyyysso/...........................
-`````````````````````````-oyyyyyyyys+/::---------......----::+syyyysyysss+..........................
-````````````````````````-osyyyyhys+/:::-------..........-----::ohyyyyyyyss+.........................
-````````````````````````+ysyhyhhs+//:::--------...-----.-----::/+yhyyyyyyss:........................
-```````````````````````-yyshhhdyo///:::----------.---..----:::://+hhyyyyyys+........................
-```````````````````````+yyyydmhs+////:::-----.........--:/+oooo++/ohdyyyyyss:.......................
-``````````````````````-ssyhdNmyso+//////::----...--/+osyyysooooos++yddyyyyyys-......................
-``````````````````````/syhhNmhsosyyyyyhyyyyso+/:-:/ossso+///////+++odddyyyyyyo......................
-``````````````````````+yyhdNmysshhyysoooosyyyho/::/+//++oyyyoso+///+sddhyyyyys:.....................
-`````````````````````.oyhdNNdyssysoooosso/+++ss/-::/:/++/oo+/+o+////+ydmdhyyyso.....................
-`````````````````````-shhdNmhsoooooyhsyyo:///os/--:/::://::::::::::/+ohmmdyyyys-....................
-`````````````````````/yhhdmmhoo+++sso///::::/+o+:-::::-----:-:---::/++ymmmmyyhy:....................
-`````````````````````:hdmmmmho++//////::::::/+o+:--:::--------..--::+oydNmNmyyy:....................
-`````````````````````.hdhdmmdso+//::--:-----:++/:---:::----.....--::/shhmmNNmys--...................
-``````````````````````+yshdmmho+//::--------/+/+/--/o+/:----....--:/+shyyhmNNdo/-...................
-``````````````````````.soydmNmyo+//:-----..-+o+yyo+//++/:-------:://+oh+/sdNNms-....................
-`````````````````````..-sshmNNmyso//:------::/+o/:::+ssso+////--:///+os/++hmmms-....................
-``````````````````````.-/hdmmmNdyyo+/::::://osyo+:::/oo+osossso-:/://ohhhdmNmmds/-..................
-`````````````````````..-+dmmhhmNhyys+/::ossysss++:::://///+/:::-::-/+ymmmmNNmmNmds/-................
-```````````````````...:ydmmmmhhmmhyys+/:hyyssoooooo++/////::----:::/odmdmmNmmmmmmmds/:--............
-`````````````````...:odmmmmmmNNNMmhysoo:::/+++++///::-::::--:--:://ohmmdmmmmmmmmmdmdhs/::-..........
-````````````````...:ymNNNmmmmmNNNNmhysoo/:/++////:::/:::::::---::/odddddmmmmNNmmmddmdhy/::-.........
-```````````````...-sdmmNNNmmmNNNNNNmdhyss+/+++/+++++so+:::::--:::odmhddddmmNNNNmmmdddmhys/:-........
-````````````....--+dmmmmmmmmmmmNNNNMNmdysss++++/////+o/::///////ohdhhdddddmmNNNNmmdddmddhyo:--......
-``````````.......-sddmmmmNNmmdmmmNNNMMNdhyyso+/o////+/+//ooossoyhyhhddmddddmmNNNmdhmddddddhs/--.....
-````````......-:/sddhdmdmmmmmdmNNNNNNNMNNdhhhyyysosssooosyyhhhyyssyddmmmmdmmmNmmdmdmmdmmddddhs+:---.
-``````.......-+yyhmhhhddddNmddmNNNNNmdmNNNmmmmdddhhdhhhhdddmdsooosydmNNmmddmmmNdmmmmmdmmmmdddddy+:--
-````.......-:sddhhdhyhmmddmmhhmNNNmmmddddmmmmmmmmmmmmmmmmmdys++ssshmmNmNmmmmddddmmdmmmmmmmmmddhhh+::
-```.......--/ydsshdhhmmmddmmmhmNNNNmmmdmmhydmmmmmmmmdhhysso+/+sssydmNmmNNNmdddddmmddmmmmmmhhhdmhdy/:
-`.......----/hhyddddhddmddmmmmmNNNNmmmmdddssyhddddhs+///////+ssyydmmmmNNNMNmmddmmmddmmmmmmdysyyddhyy
-`.......-:-/oyydmmmdhdddddmmmmmmNNmmmdddmhs+++osssso/::////+ososdmmddmNNNNmmmmNNmmdmdmNNmmmdhyyydmdm
-.......-::/shhdmmmmmddmmdmNmNmmhmmmddhyyyo+/::://+++o+//::/oo+osdmmdmmNNNNmmmmNNNmddhdNNmmmmddhhdmdh
-.........-ohhmdmNmmmmmmmdNNNNmmhdddhhyo///:::--:://///::::+o/oooydmmmNNNNddddNNNNNmddmNmmdmmdhdsoyhh
-`.......-:ydddmmmmmmmmNdmNNmmmmmmdhdmdo/::-----::::::::::/+//o++shdmmmNNmmNmmNmmNNmdmmmmmddmddy+/+//
-......-:+shmdmmmmmmmmmmmNNmNmmmmmmmmmmo::----------:::::/+//oo+syhdddmmmNNNNNNmdmNdmmmdmmdhddhys++//
-...--/++syydmmmmmmmmmmmmNNmmmmmNNmmmmm/::///::--------::///++oosddmmdddmmmmdmNdhdmdmmmmmdhdhhhss+/::
-.--//+sss++hmmmmmmmNmmddmmmmmmmNNmmmmh/-:::-:://:------://++sssdmmmdmmhdmmmmmNmhdddddmmdhhhdhdyo+/::
---:/+yyy+/ohmmmmmNNNmmdddmdmmdmmNmmmds/-:::-----------::/++ooosddddhmmdmNNNmNNNmmddhddmddhhdhhhyo/:-
---//yhy+syhddddmmNNmmmdmdmNmmmmmmmmmhs+:----------------:///++ydddhdmmNNNNmNNNNNmhddmmmmhdddhdhddy:-
--:o+hhssoshhhhydmmmmmmddddNmmdddmmmmds+/:-.......------:::://sddmmddmmmmNmmmmNmmmdddmmdmdmhhddddhdo-
--:/+hs::ohssyyhdmmmmmmdmdmmddmdmNmdmhso::...........-----:///ydmmmddddddmmNmmmdmmdddmmddmmmdmddhhd/-
---:/yy:ssosyhhdmmmmdmmmdmmmmddmmNmmdmhs:--............---://+yhdmmmmmmmdhmdddmmdmdddmmmNNNNmmddhho/:
+<style>
+  .arjs-loader {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .arjs-loader div {
+    text-align: center;
+    font-size: 1.25em;
+    color: white;
+  }
+</style>
+
+<body style="margin : 0px; overflow: hidden;">
+  <!-- minimal loader shown until image descriptors are loaded -->
+  <div class="arjs-loader">
+    <div>Loading, please wait...</div>
+  </div>
+  <a-scene
+    vr-mode-ui="enabled: false;"
+    renderer="logarithmicDepthBuffer: true;"
+    embedded
+    arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
+  >
+    <!-- we use cors proxy to avoid cross-origin problems -->
+    <a-nft
+      type="nft"
+      url="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/trex-image/trex"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
+      <a-entity
+        gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
+        scale="5 5 5"
+        position="50 150 0"
+      >
+      </a-entity>
+    </a-nft>
+    <a-entity camera></a-entity>
+  </a-scene>
 </body>
-</html>
